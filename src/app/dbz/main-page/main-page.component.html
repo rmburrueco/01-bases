@@ -16,11 +16,11 @@
         <h3>Agregar</h3>
         <hr>
 
-        <form>
+        <form (ngSubmit)="agregar()">
             <input type="text" placeholder="Nombre" />
             <input type="number" placeholder="Poder" />
 
-            <button>
+            <button type="submit">
                 Agregar
             </button>
 
