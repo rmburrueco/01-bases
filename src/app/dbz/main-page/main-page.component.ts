@@ -25,4 +25,8 @@ export class MainPageComponent {
     poder: 50000
   }
 
+  agregarNuevoPersonaje( argumento: Personaje){
+    this.personajes.push( argumento );
+  }
+
 }
